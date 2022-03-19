@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CV creator</title>
+
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web/css/bootstrap.min.css.map">
+    <style>
+
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<div class="container-fluid align-items-center" style="margin: 30px">
+    <h2 style="text-align: center"> CV Creator</h2>
+    <div class="row align-items-center" style="margin: 50px">
+        <p style="text-align: center">CV creator written with Go. Just input your informations as JSON with your photograph and download as PDF</p>
+        <div class="col-md-6 offset-md-2" style="margin-top: 20px">
+            <div class="row align-items-center">
+                <textarea contenteditable="true" style="min-height: 150px" class="form-control" name="cv-input-json" placeholder="enter your informations"></textarea>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-2 offset-md-1" style="margin-top: 20px">
+            <div class="row align-items-center">
+                <button type="button" class="btn btn-primary" style="margin-bottom: 5px">Upload Photo</button>
+                <button type="button" class="btn btn-success" style="margin-bottom: 5px">Create PDF</button>
+                <a href="/link" download > <p>{{.created}}</p> </a>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+</div>
+    <footer class="container-fluid mt-auto text-center " style="margin: 30px;background-color: white" >
+        <div class="card-footer align-items-center">
+            <a href="https://github.com/fukaraca/go-createCV" class="lead mx-3">Github</a>
+
+        </div>
+
+    </footer>
+
+
+<script src="web/js/bootstrap.js">
+
+</script>
+
+</body>
+</html>
