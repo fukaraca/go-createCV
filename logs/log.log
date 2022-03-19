@@ -1,0 +1,286 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:13:50 | 200 |     270.619µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:13:50 | 404 |      13.144µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:13:50 | 404 |       8.713µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:13:50 | 404 |       3.932µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:13:50 | 404 |      10.568µs |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:14:11 | 200 |     662.893µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:14:11 | 404 |      13.777µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:14:11 | 404 |       6.059µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:14:11 | 404 |      10.434µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:14:11 | 404 |        7.43µs |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:14:12 | 200 |     198.545µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:14:12 | 404 |       6.057µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:14:12 | 404 |       3.584µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:14:12 | 404 |       5.037µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:14:34 | 200 |     731.916µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:14:34 | 404 |       7.907µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:14:34 | 404 |       5.704µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:14:34 | 404 |      11.297µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:14:35 | 200 |     733.075µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:14:35 | 404 |      12.277µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:14:35 | 404 |      11.742µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:14:35 | 404 |      13.734µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:14:35 | 404 |       7.985µs |             ::1 | GET      "/favicon.ico"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.html
+	- 
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:15:00 | 200 |     823.068µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:15:00 | 404 |       8.268µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:15:00 | 404 |       6.111µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:15:00 | 404 |        4.54µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:15:00 | 404 |       6.452µs |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:15:05 | 404 |       7.971µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:15:05 | 404 |       3.145µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:16:41 | 200 |     410.488µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:16:41 | 404 |       9.517µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:16:41 | 404 |      10.237µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:16:41 | 404 |       9.143µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:16:42 | 200 |     207.276µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:16:42 | 404 |       7.363µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:16:42 | 404 |       4.605µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:16:42 | 404 |       6.186µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:19:42 | 200 |     744.982µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:19:42 | 404 |       8.377µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:19:42 | 404 |       3.787µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:19:42 | 404 |       5.254µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:19:42 | 404 |       7.042µs |             ::1 | GET      "/favicon.ico"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:20:39 | 200 |     161.188µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:20:39 | 404 |       6.178µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:20:39 | 404 |       4.292µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:20:39 | 404 |       2.881µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:25:45 | 200 |     484.367µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:25:45 | 404 |       8.639µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:25:45 | 404 |       6.031µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:25:45 | 404 |       7.958µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:29:12 | 404 |        7.09µs |             ::1 | GET      "/web"
+[GIN] 2022/03/19 - 20:29:15 | 404 |      18.636µs |             ::1 | GET      "/web/css"
+[GIN] 2022/03/19 - 20:29:22 | 404 |        7.53µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:29:22 | 404 |       6.197µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:29:26 | 200 |      391.55µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:29:26 | 404 |       7.165µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:29:26 | 404 |       8.416µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:29:26 | 404 |       9.691µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:33:04 | 200 |    3.395427ms |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:33:04 | 200 |    3.696453ms |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:33:04 | 200 |    3.665436ms |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:33:04 | 200 |    3.640998ms |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:33:04 | 200 |     287.624µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:33:04 | 404 |        8.48µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:33:04 | 200 |     202.992µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.html
+	- 
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:33:19 | 200 |    1.497941ms |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:33:19 | 404 |       7.019µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:33:19 | 404 |       6.579µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:33:19 | 404 |       6.866µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:33:20 | 200 |     207.547µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:33:20 | 404 |       9.064µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:33:20 | 404 |       7.159µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:33:20 | 404 |       2.978µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:33:20 | 200 |     484.028µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:33:20 | 404 |        7.62µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:33:20 | 404 |       6.546µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:33:20 | 404 |       3.208µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:33:21 | 200 |     451.218µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:33:21 | 404 |      18.583µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:33:21 | 404 |      10.677µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:33:21 | 404 |       9.072µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.html
+	- 
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:34:39 | 200 |     181.281µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:34:39 | 404 |       6.112µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:34:39 | 404 |       8.042µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:34:39 | 404 |        6.62µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:34:41 | 200 |     582.921µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:34:41 | 404 |      17.413µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:34:41 | 404 |      20.536µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:34:41 | 404 |      13.924µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:34:41 | 200 |     494.159µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:34:41 | 404 |      20.583µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:34:41 | 404 |       14.13µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:34:41 | 404 |       11.65µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:34:41 | 404 |      20.127µs |             ::1 | GET      "/favicon.ico"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:34:51 | 200 |      731.04µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:34:51 | 404 |       9.791µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:34:51 | 404 |      14.103µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:34:51 | 404 |       6.708µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:34:51 | 404 |      11.795µs |             ::1 | GET      "/favicon.ico"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.html
+	- 
+
+[GIN-debug] GET    /                         --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/19 - 20:35:08 | 200 |    1.931623ms |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:35:08 | 200 |   11.832729ms |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:35:08 | 200 |    7.848093ms |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:35:08 | 200 |   21.220758ms |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:35:08 | 200 |     226.943µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:35:08 | 404 |       7.597µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:35:08 | 404 |         935ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:35:08 | 200 |     202.794µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:35:44 | 200 |      278.67µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:35:44 | 200 |     163.142µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:35:44 | 200 |       221.6µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:35:44 | 200 |     162.443µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:35:44 | 200 |     248.068µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:35:44 | 404 |       6.243µs |             ::1 | GET      "/web/css/bootstrap.css.map"
+[GIN] 2022/03/19 - 20:35:44 | 200 |     257.025µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:35:44 | 404 |         882ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:36:05 | 200 |      305.58µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:36:05 | 200 |     159.126µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:36:05 | 200 |     144.637µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:36:05 | 200 |      262.74µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:36:05 | 200 |     188.343µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:36:05 | 404 |         853ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:36:09 | 200 |     514.996µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:36:09 | 200 |     179.132µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:36:09 | 200 |      156.41µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:36:09 | 200 |     213.046µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:36:09 | 200 |     233.678µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:36:09 | 404 |         762ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:37:58 | 200 |     391.198µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:37:58 | 200 |     184.284µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:37:58 | 200 |     147.593µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:37:58 | 200 |      188.92µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:37:58 | 200 |     243.873µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:37:58 | 404 |       1.039µs |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:38:37 | 200 |      504.07µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:38:37 | 200 |     165.321µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:38:37 | 200 |     170.991µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:38:37 | 200 |     217.053µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:38:37 | 200 |     185.891µs |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/19 - 20:38:37 | 404 |         943ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2022/03/19 - 20:39:23 | 200 |     506.973µs |             ::1 | GET      "/"
+[GIN] 2022/03/19 - 20:39:23 | 200 |     159.077µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/19 - 20:39:23 | 200 |     150.288µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/19 - 20:39:23 | 200 |      74.164µs |             ::1 | GET      "/web/favicon.ico"
+[GIN] 2022/03/19 - 20:39:23 | 200 |     247.489µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN] 2022/03/19 - 20:39:23 | 200 |     183.025µs |             ::1 | GET      "/web/js/bootstrap.js.map"
