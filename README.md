@@ -1,7 +1,7 @@
 # createCV
 
 ![](https://img.shields.io/badge/Made%20with-Go-1f425f.svg "made with go")
-![](/home/fukaraca/go/src/github.com/fukaraca/go-createCV/img/status-under construction-orange.svg)
+![under construction](/home/fukaraca/go/src/github.com/fukaraca/go-createCV/img/status-under construction-orange.svg)
 
 This project is still being constructed. 
 
