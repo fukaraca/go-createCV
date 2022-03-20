@@ -14,12 +14,12 @@
 <body class="d-flex flex-column min-vh-100">
 
 <div class="container-fluid align-items-center" style="margin: 30px">
-    <h2 style="text-align: center"> CV Creator</h2>
+    <a href="/" style="color: #1a1e21;font-style: normal"><h1 style="text-align: center; cursor:pointer" > CV Creator</h1> </a>
     <div class="row align-items-center" style="margin: 50px">
         <p style="text-align: center">CV creator written with Go. Just input your informations as JSON with your photograph and download as PDF</p>
         <div class="col-md-6 offset-md-2" style="margin-top: 20px">
             <div class="row align-items-center">
-                <textarea contenteditable="true" style="min-height: 150px" class="form-control" name="cv-input-json" placeholder="enter your informations"></textarea>
+                <textarea contenteditable="true" style="min-height: 150px" class="form-control" name="cv-input-json" placeholder="{{.example}}" form="create-form-id" required>{{.inputCV}}</textarea>
             </div>
 
 
@@ -27,8 +27,12 @@
 
         <div class="col-md-2 offset-md-1" style="margin-top: 20px">
             <div class="row align-items-center">
-                <button type="button" class="btn btn-primary" style="margin-bottom: 5px">Upload Photo</button>
-                <button type="button" class="btn btn-success" style="margin-bottom: 5px">Create PDF</button>
+                <img style="display: none;margin-bottom: 5px" id="imgToBeUploaded" width="50" >
+                <form id="create-form-id" method="post" action="/create" enctype="multipart/form-data">
+                <label for="cv-image" class="btn btn-primary" style="margin-bottom: 5px">Upload Photo</label>
+                <input type="file" name="cv-image" id="cv-image" accept="image/*" style="display: none" onchange="document.getElementById('imgToBeUploaded').src=window.URL.createObjectURL(this.files[0]);document.getElementById('imgToBeUploaded').style.display='inline'">
+                <button type="submit" class="btn btn-success" style="margin-bottom: 5px" > Create PDF</button>
+                </form>
                 <a href="/link" download > <p>{{.created}}</p> </a>
             </div>
 

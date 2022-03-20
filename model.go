@@ -13,6 +13,7 @@ var Server_Port = "8080"
 var R *gin.Engine
 var SecureTag = os.Getenv("IS_SECURE")
 var secure bool
+var res = float32(50)
 
 type Info struct {
 	Fullname string `json:"fullname"`
@@ -50,12 +51,11 @@ type Info struct {
 		FromTo string `json:"from-to"`
 		Detail string `json:"detail"`
 	} `json:"education"`
-}
+} //
 
-/*
- JSON example
+var example = ` 
 {
-   "fullname":"Furkan KARACA",
+   "fullname":"Jane Doe",
    "title":"Go Developer",
    "profile":"he loves golang",
    "skills":[
@@ -81,15 +81,15 @@ type Info struct {
    ],
    "references":[
       {
-         "fullname":"Ali Veli",
+         "fullname":"Joanna Doe",
          "job":"Senior Go Developer",
          "company":"Google",
          "mobile":"+905055055252",
-         "email":"aliveli@google.com"
+         "email":"joannadoe@google.com"
       },
       {
          "fullname":"John Doe",
-         "job":"Senior Go Developer",
+         "job":"Senior Java Developer",
          "company":"Google",
          "mobile":"+905055055252",
          "email":"johndoe@smthng.com"
@@ -97,50 +97,49 @@ type Info struct {
    ],
    "contact":{
       "mobile":"050520602545",
-      "email":"fukaraca@hotmail.com",
+      "email":"jane.doe@hotmail.com",
       "location":"Istanbul",
       "websites":[
          {
             "website":"Github",
-            "url":"https://github.com/fukaraca",
-            "alternative":"@fukaraca"
+            "url":"https://github.com/janesgithub",
+            "alternative":"@janesgithub"
          },
          {
             "website":"Portfolio",
-            "url":"https://www.portfolyomolsaydi.com",
+            "url":"https://www.iwishihad.com",
             "alternative":null
          }
       ]
    },
    "career":[
       {
-         "header":"Testing Expert",
-         "company":"TSE",
-         "from-to":"2015-2022",
+         "header":"Intern",
+         "company":"Google",
+         "from-to":"2021-2022",
          "tasks":[
-            "Testing and inspection",
-            "Reporting",
-            "Maintaining quality requirements"
+            "observing",
+            "coding",
+            "chilling"
          ]
       }
    ],
    "education":[
       {
-         "header":"Malatya Fen Lisesi",
-         "from-to":"2004-2008",
-         "detail":"High school"
+         "header":"Some High School",
+         "from-to":"2012-2016",
+         "detail":"High school stuffs"
       },
       {
-         "header":"Kocaeli University",
-         "from-to":"2008-2013",
-         "detail":"C, C#, Vbasic, Matlab and microprocessor programming lessons in context with software development."
+         "header":"Some University",
+         "from-to":"2016-2020",
+         "detail":"Something spectacular, something magnificent"
       },
       {
          "header":"Hackerrank",
          "from-to":"2019-2022",
-         "detail":"Problem solving achievements with Go, Python and Javascript. (@fukaraca)"
+         "detail":"Problem solving achievements with Go, Python and Javascript. (@janedoe)"
       }
    ]
 }
-
-*/
+ `

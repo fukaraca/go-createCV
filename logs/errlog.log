@@ -1,0 +1,107 @@
+
+
+[31m2022/03/20 10:47:32 [Recovery] 2022/03/20 - 10:47:32 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Length: 150
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryreB9HYbSJlmtf6Cv
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Pragma: no-cache
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:index.html: "\"" in attribute name: "cv-image-id\").click()\">Upload Ph"
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b0411)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b04cc)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/create.go:26 (0x8e52ce)
+	create: c.HTML(400, "index.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b8fc1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8b8fac)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b80e6)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8b80c9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b71b0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b6e18)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b6951)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x6a589a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x6a0896)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/20 11:02:30 [Recovery] 2022/03/20 - 11:02:30 panic recovered:
+GET / HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Pragma: no-cache
+Referer: http://localhost:8080/create
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:index.html: "\"" in attribute name: "5px\">\n                <!--<butto"
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b0411)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b04cc)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/create.go:11 (0x8e50f9)
+	index: c.HTML(200, "index.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b8fc1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8b8fac)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b80e6)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8b80c9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b71b0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b6e18)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b6951)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x6a589a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x6a0896)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
