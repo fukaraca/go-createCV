@@ -19,6 +19,7 @@
         <p style="text-align: center">CV creator written with Go. Just input your informations as JSON with your photograph and download as PDF</p>
         <div class="col-md-6 offset-md-2" style="margin-top: 20px">
             <div class="row align-items-center">
+                <label>{{.message}}</label>
                 <textarea contenteditable="true" style="min-height: 150px" class="form-control" name="cv-input-json" placeholder="{{.example}}" form="create-form-id" required>{{.inputCV}}</textarea>
             </div>
 

@@ -8,9 +8,9 @@ import (
 	"mime/multipart"
 )
 
-//resize function resize and saves the form input file to filepath(./web/img/temp) with the given filename.
-func resize(file multipart.File, filepath, filename string) (error, *image.NRGBA) {
-	img, err := imaging.Decode(file)
+//resizer function resize and saves the form input file to filepath(./web/img/temp) with the given filename.
+func resizer(file *multipart.File, filepath, filename string) (error, *image.NRGBA) {
+	img, err := imaging.Decode(*file)
 	if err != nil {
 		log.Println("image couldn't be decoded:")
 		return err, nil
