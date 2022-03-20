@@ -20,8 +20,8 @@ type Info struct {
 	Title    string `json:"title"`
 	Profile  string `json:"profile"`
 	Skills   []struct {
-		Header string   `json:"header"`
-		Set    []string `json:"set"`
+		Header string `json:"header"`
+		Set    string `json:"set"`
 	} `json:"skills"`
 	References []struct {
 		Fullname string `json:"fullname"`
@@ -34,11 +34,8 @@ type Info struct {
 		Mobile   string `json:"mobile"`
 		Email    string `json:"email"`
 		Location string `json:"location"`
-		Websites []struct {
-			Website     string `json:"website,omitempty"`
-			URL         string `json:"url,omitempty"`
-			Alternative string `json:"alternative,omitempty"`
-		} `json:"websites,omitempty"`
+		Github   string `json:"github"`
+		Website  string `json:"website"`
 	} `json:"contact"`
 	Career []struct {
 		Header  string   `json:"header"`
@@ -61,22 +58,11 @@ var example = `
    "skills":[
       {
          "header":"Coding Languages",
-         "set":[
-            "Go",
-            "Python",
-            "Javascript"
-         ]
+         "set":"Go, Python, Javascript"
       },
       {
          "header":"Frameworks/Systems/Databases",
-         "set":[
-            "Linux",
-            "PostgreSQL",
-            "RabbitMQ",
-            "Docker",
-            "REST",
-            "MongoDB"
-         ]
+         "set":"Linux,PostgreSQL, RabbitMQ, Docker, REST, MongoDB"
       }
    ],
    "references":[
@@ -99,18 +85,8 @@ var example = `
       "mobile":"050520602545",
       "email":"jane.doe@hotmail.com",
       "location":"Istanbul",
-      "websites":[
-         {
-            "website":"Github",
-            "url":"https://github.com/janesgithub",
-            "alternative":"@janesgithub"
-         },
-         {
-            "website":"Portfolio",
-            "url":"https://www.iwishihad.com",
-            "alternative":null
-         }
-      ]
+      "github":"https://github.com/janesgithub",
+      "website":"https://www.iwishihad.com"
    },
    "career":[
       {
