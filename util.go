@@ -1,19 +1,17 @@
 package main
 
 import (
-	"fmt"
 	"github.com/disintegration/imaging"
-	"image"
 	"log"
 	"mime/multipart"
 )
 
-//resizer function resize and saves the form input file to filepath(./web/img/temp) with the given filename.
-func resizer(file *multipart.File, filepath, filename string) (error, *image.NRGBA) {
+//resizeAndSave function resize and saves the form input file to filepath(./web/img/temp) with the given filename.
+func resizeAndSave(file *multipart.File, filepath, filename string) error {
 	img, err := imaging.Decode(*file)
 	if err != nil {
 		log.Println("image couldn't be decoded:")
-		return err, nil
+		return err
 	}
 
 	//aspect ratio
@@ -29,6 +27,5 @@ func resizer(file *multipart.File, filepath, filename string) (error, *image.NRG
 
 	// Resize srcImage to size = highestRes aspect ratio using the Lanczos filter.
 	dstImage8060 := imaging.Resize(img, int(srcX), int(srcY), imaging.Lanczos)
-	fmt.Println(dstImage8060.Pix)
-	return nil, dstImage8060
+	return imaging.Save(dstImage8060, filepath+filename)
 }

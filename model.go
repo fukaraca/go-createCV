@@ -13,7 +13,7 @@ var Server_Port = "8080"
 var R *gin.Engine
 var SecureTag = os.Getenv("IS_SECURE")
 var secure bool
-var res = float32(50)
+var res = float32(212)
 
 type Info struct {
 	Fullname string `json:"fullname"`
@@ -40,18 +40,18 @@ type Info struct {
 	Career []struct {
 		Header  string   `json:"header"`
 		Company string   `json:"company"`
-		FromTo  string   `json:"from-to"`
+		FromTo  string   `json:"fromto"`
 		Tasks   []string `json:"tasks"`
 	} `json:"career"`
 	Education []struct {
 		Header string `json:"header"`
-		FromTo string `json:"from-to"`
+		FromTo string `json:"fromto"`
 		Detail string `json:"detail"`
 	} `json:"education"`
+	photoPath string
 } //
 
-var example = ` 
-{
+var example = `{
    "fullname":"Jane Doe",
    "title":"Go Developer",
    "profile":"he loves golang",
@@ -92,7 +92,7 @@ var example = `
       {
          "header":"Intern",
          "company":"Google",
-         "from-to":"2021-2022",
+         "fromto":"2021-2022",
          "tasks":[
             "observing",
             "coding",
@@ -103,19 +103,18 @@ var example = `
    "education":[
       {
          "header":"Some High School",
-         "from-to":"2012-2016",
+         "fromto":"2012-2016",
          "detail":"High school stuffs"
       },
       {
          "header":"Some University",
-         "from-to":"2016-2020",
+         "fromto":"2016-2020",
          "detail":"Something spectacular, something magnificent"
       },
       {
          "header":"Hackerrank",
-         "from-to":"2019-2022",
+         "fromto":"2019-2022",
          "detail":"Problem solving achievements with Go, Python and Javascript. (@janedoe)"
       }
    ]
-}
- `
+}`

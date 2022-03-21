@@ -105,3 +105,813 @@ html/template:index.html: "\"" in attribute name: "5px\">\n                <!--<
 /home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
 	goexit: BYTE	$0x90	// NOP
 [0m
+
+
+[31m2022/03/21 21:04:27 [Recovery] 2022/03/21 - 21:04:27 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary22KecbPwReBAzc6j
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:43:46: executing "template.html" at <.header>: can't evaluate field header in type struct { Header string "json:\"header\""; Set string "json:\"set\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:08:01 [Recovery] 2022/03/21 - 21:08:01 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 2008
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQQf8aUhjRPoKKAGl
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:43:46: executing "template.html" at <.header>: can't evaluate field header in type struct { Header string "json:\"header\""; Set string "json:\"set\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:12:08 [Recovery] 2022/03/21 - 21:12:08 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryX1ceQcsjaTDvfXgv
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:43:46: executing "template.html" at <.header>: can't evaluate field header in type struct { Header string "json:\"header\""; Set string "json:\"set\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:19:40 [Recovery] 2022/03/21 - 21:19:40 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzUHoyrAuKoaZ40Mj
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:43:53: executing "template.html" at <.skills.header>: can't evaluate field skills in type struct { Header string "json:\"header\""; Set string "json:\"set\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:21:01 [Recovery] 2022/03/21 - 21:21:01 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary3BvUBGHmVyr0keEo
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:49:46: executing "template.html" at <.fullname>: can't evaluate field fullname in type struct { Fullname string "json:\"fullname\""; Job string "json:\"job\""; Company string "json:\"company,omitempty\""; Mobile string "json:\"mobile,omitempty\""; Email string "json:\"email,omitempty\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:22:10 [Recovery] 2022/03/21 - 21:22:10 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfhWW7vuWoicADL7t
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:58:20: executing "template.html" at <.contact>: range can't iterate over {050520602545 jane.doe@hotmail.com Istanbul https://github.com/janesgithub https://www.iwishihad.com}
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:22:27 [Recovery] 2022/03/21 - 21:22:27 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryL4FHFtFfe0MNcI6q
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:58:20: executing "template.html" at <.contact>: range can't iterate over {050520602545 jane.doe@hotmail.com Istanbul https://github.com/janesgithub https://www.iwishihad.com}
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:24:48 [Recovery] 2022/03/21 - 21:24:48 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAVijjNhTdaLApKWb
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:70:38: executing "template.html" at <.Fromto>: can't evaluate field Fromto in type struct { Header string "json:\"header\""; Company string "json:\"company\""; FromTo string "json:\"fromto\""; Tasks []string "json:\"tasks\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 21:25:46 [Recovery] 2022/03/21 - 21:25:46 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5QWsWRoee5utYuLq
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+template: template.html:71:24: executing "template.html" at <.tasks>: can't evaluate field tasks in type struct { Header string "json:\"header\""; Company string "json:\"company\""; FromTo string "json:\"fromto\""; Tasks []string "json:\"tasks\"" }
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:53 (0x8ed9c6)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 22:03:29 [Recovery] 2022/03/21 - 22:03:29 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryFwC9FQLmwbLnWIEm
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:template.html: "\"" in unquoted attr: "img-id\""
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 22:04:17 [Recovery] 2022/03/21 - 22:04:17 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygJV4rCpAFghU0Pcj
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:template.html: "\"" in unquoted attr: "img-id\""
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 22:05:02 [Recovery] 2022/03/21 - 22:05:02 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 16187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAIxgtDy4OMbBVRd7
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:template.html: "\"" in unquoted attr: "img-id\""
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 22:06:35 [Recovery] 2022/03/21 - 22:06:35 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 2011
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylAFJtffB0XZYgnQD
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:template.html: "\"" in unquoted attr: "img-id\""
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 22:10:55 [Recovery] 2022/03/21 - 22:10:55 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 2011
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqUvkPju38uLIBtaK
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:template.html: "\"" in unquoted attr: "img-id\""
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/03/21 22:19:42 [Recovery] 2022/03/21 - 22:19:42 panic recovered:
+POST /create HTTP/1.1
+Host: localhost:8080
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Length: 2011
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1VMbbtcd0gPcWGSq
+Cookie: Goland-f7c58129=3835b445-e0e5-405c-824b-a2fded9dc120
+Origin: http://localhost:8080
+Referer: http://localhost:8080/
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+
+
+html/template:template.html: "\"" in unquoted attr: "img-id\""
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:928 (0x8b3031)
+	(*Context).Render: panic(err)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:937 (0x8b30ec)
+	(*Context).HTML: c.Render(code, instance)
+/home/fukaraca/go/src/github.com/fukaraca/go-createCV/handlers.go:52 (0x8ed966)
+	create: c.HTML(200, "template.html", gin.H{
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bbbe1)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99 (0x8bbbcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8bad06)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/logger.go:241 (0x8bace9)
+	LoggerWithConfig.func1: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 (0x8b9dd0)
+	(*Context).Next: c.handlers[c.index](c)
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 (0x8b9a38)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/fukaraca/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 (0x8b9571)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:2916 (0x69373a)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/home/fukaraca/sdk/go1.18/src/net/http/server.go:1966 (0x68e736)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/home/fukaraca/sdk/go1.18/src/runtime/asm_amd64.s:1571 (0x465380)
+	goexit: BYTE	$0x90	// NOP
+[0m

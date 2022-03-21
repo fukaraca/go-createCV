@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{.pdf-name}}</title>
-    <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <title>{{.pdfname}}</title>
+    <link rel="stylesheet" href="/web/css/bootstrap.min.css">
     <style>
         html,body{
             height:297mm;
             width:210mm;
-            background-color: #eff0f2;
             font-size:small ;
         }
         h1,h2,h3,h4,h5,h6{
@@ -20,66 +19,66 @@
             margin-bottom: 6px;
         }
 
+
     </style>
 </head>
-<body>
-<div class="container-fluid align-items-center" >
-    <canvas id="headerCanvas" width="773" height="169" style="background-color: #5c636a"></canvas>
+<body style="background-color: #eff0f2 !important">
+<div class="container-fluid align-items-center">
+    <img id="img-id" src="./web/img/canvas.png" style="margin-left: -10px">
+
     <div class="row">
         <div class="col-4 offset-4 align-items-center">
-            <img style="z-index: 3;margin-top: -120px;margin-left: 16px" src="/web/img/janedoe.png" width="212" height="212" >
+            <img style="z-index: 3;margin-top: -120px;margin-left: 16px" src="{{.photograph}}" width="212" height="212" >
             <h2 style="text-align: center;font-size: xx-large">{{.fullname}}</h2>
             <h4 style="text-align: center;font-size: x-large">{{.title}}</h4>
         </div>
     </div>
     <div class="row">
-        <div class="col-5 offset-1" style="margin-top: 100px">
-            <h3 style="margin-bottom: 20px;margin-top: 10px">PROFILE</h3>
-            <p>{{.profile}}</p>
+        <div class="col-5 offset-1" style="margin-top: 80px">
+            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>PROFILE</u></h3>
+            <p style="margin-left: 17px">{{.profile}}</p>
 
 
-            <h3 style="margin-bottom: 20px;margin-top: 10px">SKILLS</h3>
-            {{range .skills }}
-            <h6 style="margin-bottom: 10px">{{.header}}</h6>
-            <p>{{.set}}</p>
+            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>SKILLS</u></h3>
+            {{range .skills}}
+            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Header}}</h6>
+            <p style="margin-left: 17px">{{.Set}}</p>
             {{end}}
 
-            <h3 style="margin-bottom: 20px;margin-top: 10px">CHARACTER REFERENCES</h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>CHARACTER REFERENCES</u></h3>
             {{range .references }}
-            <h6 style="margin-bottom: 10px">{{.fullname}}</h6>
-            <p>{{.job}}</p>
-            <p>{{.company}}</p>
-            <p>{{.mobile}}</p>
-            <p>{{.email}}</p>
+            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Fullname}}</h6>
+            <p style="margin-left: 17px">{{.Job}}</p>
+            <p style="margin-left: 17px">{{.Company}}</p>
+            <p style="margin-left: 17px">{{.Mobile}}</p>
+            <p style="margin-left: 17px">{{.Email}}</p>
             {{end}}
 
 
-            <h3 style="margin-bottom: 20px;margin-top: 10px">HOW TO REACH ME</h3>
-            {{range .contact }}
-            <p>{{.mobile}}</p>
-            <p>{{.email}}</p>
-            <p>{{.location}}</p>
-            <p>{{.github}}</p>
-            <p>{{.website}}</p>
-            {{end}}
+            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>HOW TO REACH ME</u></h3>
+            <p><b>Mobile:   </b>{{.contact.Mobile}}</p>
+            <p><b>E-mail:   </b>{{.contact.Email}}</p>
+            <p><b>Location: </b>{{.contact.Location}}</p>
+            <p><b>Github:   </b>{{.contact.Github}}</p>
+            <p><b>Website:  </b>{{.contact.Website}}</p>
         </div>
 
-        <div class="col-5 offset-1" style="margin-top: 100px">
+        <div class="col-5 offset-1" style="margin-top: 80px">
 
-            <h3 style="margin-bottom: 20px;margin-top: 10px">CAREER</h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>CAREER</u></h3>
             {{range .career }}
-            <h6 style="margin-bottom: 10px">{{.header}}</h6>
-            <p>{{.company}} | <span>{{.from-to}}</span></p>
-                {{range .tasks}}
+            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Header}}</h6>
+            <p style="margin-left: 17px">{{.Company}} | <span>{{.FromTo}}</span></p>
+                {{range .Tasks}}
                     <ul>{{.}}</ul>
                 {{end}}
             {{end}}
 
 
-            <h3 style="margin-bottom: 20px;margin-top: 10px">EDUCATIONAL TRAINING</h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>EDUCATIONAL TRAINING</u></h3>
             {{range .education }}
-            <h6 style="margin-bottom: 10px">{{.header}}(<span>{{.from-to}}</span>)</h6>
-            <p>{{.detail}}</p>
+            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Header}}(<span>{{.FromTo}}</span>)</h6>
+            <p style="margin-left: 17px">{{.Detail}}</p>
             {{end}}
         </div>
     </div>
@@ -91,7 +90,7 @@
 
 
 
-<script src="web/js/bootstrap.js">
+<script src="./web/js/bootstrap.js">
 
 </script>
 </body>
