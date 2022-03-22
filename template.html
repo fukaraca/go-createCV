@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <title>{{.pdfname}}</title>
-    <link rel="stylesheet" href="/web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{.addpath}}/web/css/bootstrap.min.css">
     <style>
         html,body{
             height:297mm;
@@ -24,7 +24,7 @@
 </head>
 <body style="background-color: #eff0f2 !important">
 <div class="container-fluid align-items-center">
-    <img id="img-id" src="./web/img/canvas.png" style="margin-left: -10px">
+    <img id="img-id" src="{{.addpath}}/web/img/canvas.png" style="margin-left: -10px">
 
     <div class="row">
         <div class="col-4 offset-4 align-items-center">
@@ -90,7 +90,7 @@
 
 
 
-<script src="./web/js/bootstrap.js">
+<script src="{{.addpath}}/web/js/bootstrap.js">
 
 </script>
 </body>

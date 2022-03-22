@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"html/template"
 	"log"
 	"path/filepath"
 )
@@ -34,10 +35,12 @@ func create(c *gin.Context) {
 	imgToBeResized, header, err := c.Request.FormFile("cv-image")
 	if err != nil || header.Size == 0 {
 		log.Println("image upload failed or no such file:", err)
+
 	} else {
-		info.photoPath = "web/img/temp/temp." + filepath.Ext(header.Filename)
 		filePathString := fmt.Sprintf("./web/img/temp/")
 		err = resizeAndSave(&imgToBeResized, filePathString, "temp"+filepath.Ext(header.Filename))
+		info.photoPath = AddPath() + template.URL("/web/img/temp/temp") + template.URL(filepath.Ext(header.Filename))
+
 		if err != nil {
 			log.Println("image couldn't be resized", err)
 			c.HTML(400, "index.html", gin.H{

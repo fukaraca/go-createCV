@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"html/template"
 	"os"
 )
 
@@ -48,7 +49,7 @@ type Info struct {
 		FromTo string `json:"fromto"`
 		Detail string `json:"detail"`
 	} `json:"education"`
-	photoPath string
+	photoPath template.URL
 } //
 
 var example = `{
