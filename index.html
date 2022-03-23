@@ -15,10 +15,10 @@
 <div class="container-fluid align-items-center" style="margin: 30px">
     <a href="/" style="color: #1a1e21;font-style: normal"><h1 style="text-align: center; cursor:pointer" > CV Creator</h1> </a>
     <div class="row align-items-center" style="margin: 50px">
-        <p style="text-align: center;font-size: larger">CV creator written with Go. <br>Just pass your CV informations in JSON format as <b>Ms. Jane</b> did and get your CV file as PDF in return.<br>If you want to append a photograph it is suggested to use a squared shaped. You can customize to create your own version.<br>Source code of this project can be found at:&nbsp; <a href="https://github.com/fukaraca/go-createCV">Github</a></p>
+        <p style="text-align: center;font-size: larger">CV creator written with Go. <br>Just pass your CV informations in JSON format as <b>Ms. Jane</b> did and get your CV file as PDF in return.<br>If you want to append a photograph it is suggested to use a squared or circular shaped. You can customize to create your own version.<br>Source code of this project can be found at:&nbsp; <a href="https://github.com/fukaraca/go-createCV">Github</a></p>
         <div class="col-md-6 offset-md-2" style="margin-top: 20px">
             <div class="row align-items-center">
-                <label>{{.message}}</label>
+                <label style="font-size: x-large;color: firebrick">{{.message}}</label>
                 <textarea contenteditable="true" style="min-height: 350px" class="form-control" name="cv-input-json" placeholder="{{.example}}" form="create-form-id" required>{{.inputCV}}</textarea>
             </div>
 

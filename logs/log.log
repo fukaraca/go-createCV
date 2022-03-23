@@ -3402,3 +3402,325 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 [GIN-debug] Listening and serving HTTP on :8080
 [GIN] 2022/03/23 - 20:54:50 | 200 |    1.770072ms |             ::1 | GET      "/"
 [GIN] 2022/03/23 - 20:54:55 | 200 |  671.025166ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- index.html
+	- template.html
+	- 
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:28:43 | 200 |    1.549966ms |             ::1 | GET      "/"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 500
+[GIN] 2022/03/23 - 21:28:48 | 500 |  876.601207ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:30:10 | 200 |     2.56021ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:30:17 | 200 |  679.407388ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 21:31:09 | 200 |     389.951µs |             ::1 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- template.html
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:33:35 | 200 |     1.65675ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:33:42 | 200 |  671.810964ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- index.html
+	- template.html
+	- 
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:38:59 | 200 |    5.743005ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:38:59 | 200 |    1.508721ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:39:04 | 200 |  680.076754ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:45:10 | 200 |     1.64935ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:45:14 | 200 |  673.688223ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:47:09 | 200 |    1.949203ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:47:14 | 200 |  719.157575ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- index.html
+	- template.html
+	- 
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:49:57 | 200 |    3.797789ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:50:02 | 200 |  714.932617ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 21:50:20 | 200 |    2.951698ms |             ::1 | GET      "/web/js/bootstrap.js.map"
+[GIN] 2022/03/23 - 21:50:20 | 200 |     253.498µs |             ::1 | GET      "/web/css/bootstrap.min.css.map"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 21:58:01 | 200 |    1.656815ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 21:58:05 | 200 |  680.556826ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:03:13 | 200 |    2.919627ms |             ::1 | GET      "/"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 500
+[GIN] 2022/03/23 - 22:03:17 | 500 |  726.578107ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:15:15 | 200 |    3.240561ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:15:19 | 200 |  671.061545ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:15:19 | 404 |       1.362µs |             ::1 | GET      "/favicon.ico"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:17:41 | 200 |    1.635001ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:17:46 | 200 |  750.983419ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:21:15 | 200 |    1.561534ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:21:19 | 200 |  694.462809ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:22:02 | 200 |    1.586184ms |             ::1 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:31:27 | 200 |    6.379761ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:31:53 | 200 |  714.818498ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:34:53 | 200 |    1.896982ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:34:58 | 200 |   853.14001ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:36:49 | 200 |    1.904655ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:36:55 | 200 |  663.474825ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:39:38 | 200 |    3.164321ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:39:50 | 200 |  670.043276ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 22:40:13 | 200 |    1.685041ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:40:18 | 200 |  835.976964ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:41:42 | 400 |   14.305361ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:42:18 | 200 |    2.434424ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:42:21 | 400 |    1.061382ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:42:39 | 200 |    1.437123ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:42:42 | 400 |    1.650193ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:47:43 | 200 |    1.679136ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 22:47:57 | 200 |  596.688013ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 22:48:08 | 200 |    1.353594ms |             ::1 | GET      "/"

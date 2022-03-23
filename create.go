@@ -11,12 +11,12 @@ import (
 )
 
 //pdfGenerator creates the CV.pdf from buffered data which is templated HTML with provided information
-func pdfGenerator(r *bytes.Buffer) error {
+func pdfGenerator(r *bytes.Buffer) (error, *bytes.Buffer) {
 
 	pdfg, err := wkhtmltopdf.NewPDFGenerator()
 	if err != nil {
 		log.Println("pdf couldn't be generated", err)
-		return err
+		return err, nil
 	}
 	//prepare a new page from a buffered stream of bytes
 	page := wkhtmltopdf.NewPageReader(r)
@@ -24,8 +24,6 @@ func pdfGenerator(r *bytes.Buffer) error {
 	page.Zoom.Set(1.5)
 	//append the page to PdfGenerator
 	pdfg.AddPage(page)
-
-	pdfg.SetStderr(os.Stdout)
 	pdfg.Dpi.Set(300)
 	pdfg.MarginLeft.Set(0)
 	pdfg.MarginRight.Set(0)
@@ -37,16 +35,10 @@ func pdfGenerator(r *bytes.Buffer) error {
 	err = pdfg.Create()
 	if err != nil {
 		log.Println("pdf couldn't be created:", err)
-		return err
+		return err, nil
 	}
 
-	err = pdfg.WriteFile("./web/dump/CV.pdf")
-	if err != nil {
-		log.Println("pdf couldn't be writed ", err)
-		return err
-	}
-
-	return nil
+	return nil, pdfg.Buffer()
 }
 
 //templater simply creates HTML version of PDF to be generated and returns the data as buffered bytes

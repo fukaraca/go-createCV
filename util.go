@@ -1,6 +1,8 @@
 package main
 
 import (
+	"crypto/rand"
+	"fmt"
 	"github.com/disintegration/imaging"
 	"log"
 	"mime/multipart"
@@ -28,4 +30,13 @@ func resizeAndSave(file *multipart.File, filepath, filename string) error {
 	// Resize srcImage to size = highestRes aspect ratio using the Lanczos filter.
 	dstImage8060 := imaging.Resize(img, int(srcX), int(srcY), imaging.Lanczos)
 	return imaging.Save(dstImage8060, filepath+filename)
+}
+
+//randomString function generates and returns n bytes sized string
+func randomString(n int) string {
+	randSuffix := make([]byte, n)
+	if _, err := rand.Read(randSuffix); err != nil {
+		log.Println("random string generation failed:", err)
+	}
+	return fmt.Sprintf("%X", randSuffix)
 }
