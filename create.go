@@ -27,7 +27,6 @@ func pdfGenerator(r *bytes.Buffer) error {
 
 	pdfg.SetStderr(os.Stdout)
 	pdfg.Dpi.Set(300)
-	pdfg.Grayscale.Set(true)
 	pdfg.MarginLeft.Set(0)
 	pdfg.MarginRight.Set(0)
 	pdfg.MarginTop.Set(0)
