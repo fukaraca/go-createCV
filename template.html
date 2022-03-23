@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="min-height: 100%">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -7,55 +7,56 @@
     <link rel="stylesheet" href="{{.addpath}}/web/css/bootstrap.min.css">
     <style>
         html,body{
-            height:297mm;
-            width:210mm;
-            font-size:small ;
+/*            height:297mm;
+            width:210mm;*/
+
+            font-size:medium ;
         }
         h1,h2,h3,h4,h5,h6{
-            font-size: large;
+            font-size: larger;
         }
         p,ul{
-            margin-top: 6px;
-            margin-bottom: 6px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
 
     </style>
 </head>
-<body style="background-color: #eff0f2 !important">
-<div class="container-fluid align-items-center">
-    <img id="img-id" src="{{.addpath}}/web/img/canvas.png" style="margin-left: -10px">
+<body style="background-color: #eff0f2 !important;min-height: 100%">
+<div class="container-fluid align-items-center" >
+    <img id="img-id" src="{{.addpath}}/web/img/canvas.png" style="margin-left: -15px;min-width: 110%">
 
     <div class="row">
         <div class="col-4 offset-4 align-items-center">
-            <img style="z-index: 3;margin-top: -120px;margin-left: 16px" src="{{.photograph}}" width="212" height="212" >
+            <img style="z-index: 3;margin-top: -120px;margin-left: 69px" src="{{.photograph}}"  width="212" height="212">
             <h2 style="text-align: center;font-size: xx-large">{{.fullname}}</h2>
             <h4 style="text-align: center;font-size: x-large">{{.title}}</h4>
         </div>
     </div>
     <div class="row">
-        <div class="col-5 offset-1" style="margin-top: 80px">
-            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>PROFILE</u></h3>
+        <div class="col-5 offset-1" style="margin-top: 100px">
+            <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>PROFILE</u></h3>
             <p style="margin-left: 17px">{{.profile}}</p>
 
 
-            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>SKILLS</u></h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>SKILLS</u></h3>
             {{range .skills}}
-            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Header}}</h6>
+            <h6 style="margin-bottom: 10px;margin-left: 13px"><b>{{.Header}}</b></h6>
             <p style="margin-left: 17px">{{.Set}}</p>
             {{end}}
 
-            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>CHARACTER REFERENCES</u></h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>CHARACTER REFERENCES</u></h3>
             {{range .references }}
-            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Fullname}}</h6>
-            <p style="margin-left: 17px">{{.Job}}</p>
-            <p style="margin-left: 17px">{{.Company}}</p>
-            <p style="margin-left: 17px">{{.Mobile}}</p>
-            <p style="margin-left: 17px">{{.Email}}</p>
+            <h6 style="margin-bottom: 10px;margin-left: 13px"><b>{{.Fullname}}</b></h6>
+            <p style="margin-left: 17px"><b>Duty:</b>{{.Job}}</p>
+            <p style="margin-left: 17px"><b>Company:</b>{{.Company}}</p>
+            <p style="margin-left: 17px"><b>Mobile:</b>{{.Mobile}}</p>
+            <p style="margin-left: 17px"><b>E-mail:</b>{{.Email}}</p>
             {{end}}
 
 
-            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>HOW TO REACH ME</u></h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>HOW TO REACH ME</u></h3>
             <p><b>Mobile:   </b>{{.contact.Mobile}}</p>
             <p><b>E-mail:   </b>{{.contact.Email}}</p>
             <p><b>Location: </b>{{.contact.Location}}</p>
@@ -63,21 +64,21 @@
             <p><b>Website:  </b>{{.contact.Website}}</p>
         </div>
 
-        <div class="col-5 offset-1" style="margin-top: 80px">
+        <div class="col-5 offset-1" style="margin-top: 100px">
 
-            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>CAREER</u></h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>CAREER</u></h3>
             {{range .career }}
-            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Header}}</h6>
-            <p style="margin-left: 17px">{{.Company}} | <span>{{.FromTo}}</span></p>
+            <h6 style="margin-bottom: 10px;margin-left: 13px"><b>{{.Header}}</b></h6>
+            <p style="margin-left: 17px">{{.Company}} <b>|</b> <span>{{.FromTo}}</span></p>
                 {{range .Tasks}}
                     <ul>{{.}}</ul>
                 {{end}}
             {{end}}
 
 
-            <h3 style="margin-bottom: 10px;margin-top: 10px"><u>EDUCATIONAL TRAINING</u></h3>
+            <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>EDUCATIONAL TRAINING</u></h3>
             {{range .education }}
-            <h6 style="margin-bottom: 10px;margin-left: 13px">{{.Header}}(<span>{{.FromTo}}</span>)</h6>
+            <h6 style="margin-bottom: 10px;margin-left: 13px"><b>{{.Header}}(<span>{{.FromTo}}</span>)</b></h6>
             <p style="margin-left: 17px">{{.Detail}}</p>
             {{end}}
         </div>

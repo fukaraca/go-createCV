@@ -3062,3 +3062,291 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 [GIN-debug] Listening and serving HTTP on :8080
 [GIN] 2022/03/23 - 02:52:45 | 200 |    2.932697ms |             ::1 | GET      "/"
 [GIN] 2022/03/23 - 02:52:49 | 200 |  709.180816ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 19:42:31 | 200 |    1.641696ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:42:31 | 304 |      67.401µs |             ::1 | GET      "/web/img/janedoe.png"
+[GIN] 2022/03/23 - 19:42:35 | 200 |  716.110278ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:42:40 | 200 |   11.023013ms |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:46:01 | 200 |    1.648582ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:46:02 | 200 |     946.811µs |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:46:12 | 200 |  539.652289ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:46:14 | 200 |     319.084µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 19:46:34 | 200 |    1.670113ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:46:35 | 200 |  597.717704ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:46:37 | 200 |   12.690254ms |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:47:49 | 200 |     1.57075ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:47:51 | 200 |    584.0255ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:47:54 | 200 |     322.188µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 19:48:06 | 200 |     632.355µs |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:48:08 | 200 |  618.813499ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:49:07 | 200 |     408.913µs |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:49:10 | 200 |  618.400153ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:49:50 | 200 |    1.447122ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:49:52 | 200 |  630.829409ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 19:50:05 | 200 |    1.628561ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:50:07 | 200 |  570.281663ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:51:02 | 200 |    1.506675ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:51:07 | 200 |  590.130206ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:51:08 | 200 |   21.322099ms |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:51:31 | 200 |    2.054604ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:51:32 | 200 |  604.647634ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:51:33 | 200 |     304.918µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:51:56 | 200 |    1.423093ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:51:58 | 200 |  645.473139ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:51:59 | 200 |     305.834µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:52:11 | 200 |    1.361131ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:52:13 | 200 |  643.439472ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:52:14 | 200 |     325.696µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:52:38 | 200 |     1.63555ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:52:40 | 200 |  781.550901ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:53:08 | 200 |    1.386464ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:53:09 | 200 |  638.489921ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:53:11 | 200 |     269.826µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:53:28 | 200 |    574.9799ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:53:31 | 200 |     420.592µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:54:16 | 200 |    1.549042ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:54:17 | 200 |  631.323024ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:54:18 | 200 |      315.58µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:54:43 | 200 |    1.391019ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:55:55 | 200 |    1.539892ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:55:56 | 200 |  644.168302ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:55:58 | 200 |     292.956µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- index.html
+	- template.html
+	- 
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 19:58:08 | 200 |    8.330813ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 19:58:10 | 200 |  536.946542ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:58:11 | 200 |   17.233309ms |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:58:26 | 200 |   647.08095ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:58:27 | 200 |     298.217µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 19:58:54 | 200 |  792.007011ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 19:58:56 | 200 |     342.512µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:00:45 | 200 |    2.260173ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:00:48 | 200 |  567.882142ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:00:51 | 200 |    1.364831ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:00:57 | 200 |  595.991918ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:00:58 | 200 |     347.162µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:03:19 | 200 |    1.486457ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:03:23 | 200 |  710.672041ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:03:25 | 200 |     297.489µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:04:36 | 200 |    1.386098ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:04:38 | 200 |  785.459243ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:04:39 | 200 |    3.676817ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:04:43 | 200 |  655.027739ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:05:26 | 200 |    1.316685ms |             ::1 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 20:05:33 | 200 |       485.2µs |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:05:37 | 200 |  654.584994ms |             ::1 | POST     "/create"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- template.html
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 20:09:30 | 200 |    3.570033ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:09:35 | 200 |  608.883825ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:09:37 | 200 |   12.414284ms |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:10:16 | 200 |    1.496437ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:10:20 | 200 |   630.36327ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:10:22 | 200 |     307.808µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:10:58 | 200 |    1.493764ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:11:00 | 200 |  589.174297ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:11:00 | 200 |      291.75µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:11:12 | 200 |    1.362034ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:11:14 | 200 |  603.300637ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:11:15 | 200 |     281.475µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:12:37 | 200 |    1.381816ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:12:42 | 200 |  700.833243ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:12:43 | 200 |     339.574µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:14:11 | 200 |     2.77355ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:14:17 | 200 |  588.566374ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:14:19 | 200 |     277.016µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:14:59 | 200 |    1.449331ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:15:03 | 200 |  649.878847ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:15:04 | 200 |     291.326µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:15:23 | 200 |    1.430982ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:15:25 | 200 |     581.792µs |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:15:30 | 200 |  619.498331ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:15:30 | 301 |      37.023µs |             ::1 | GET      "/web/css/bootstrap.min.css/"
+[GIN] 2022/03/23 - 20:15:30 | 200 |     206.188µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/23 - 20:15:30 | 200 |     343.294µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/23 - 20:15:30 | 200 |      68.164µs |             ::1 | GET      "/web/favicon.ico"
+[GIN] 2022/03/23 - 20:15:31 | 200 |    1.528874ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:15:32 | 200 |    1.476903ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:15:32 | 301 |      56.813µs |             ::1 | GET      "/web/css/bootstrap.min.css/"
+[GIN] 2022/03/23 - 20:15:32 | 200 |    1.261507ms |             ::1 | GET      "/web/img/janedoe.png"
+[GIN] 2022/03/23 - 20:15:32 | 200 |     215.687µs |             ::1 | GET      "/web/js/bootstrap.js"
+[GIN] 2022/03/23 - 20:15:32 | 200 |     219.321µs |             ::1 | GET      "/web/css/bootstrap.min.css"
+[GIN] 2022/03/23 - 20:15:32 | 200 |      52.341µs |             ::1 | GET      "/web/favicon.ico"
+[GIN] 2022/03/23 - 20:15:37 | 200 |  638.364658ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:15:38 | 200 |      348.36µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:16:00 | 200 |    1.607315ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:16:06 | 200 |  792.469236ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:16:07 | 200 |     351.719µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:16:44 | 200 |    1.508939ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:16:49 | 200 |  586.462262ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:16:50 | 200 |     296.249µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:17:21 | 200 |    1.450157ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:17:26 | 200 |  639.226789ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:17:39 | 200 |     1.32019ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:19:33 | 200 |    1.915241ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:19:35 | 200 |  584.319791ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:19:36 | 200 |     286.714µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:20:10 | 200 |  791.903009ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:20:11 | 200 |     324.189µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:20:31 | 200 |    1.711388ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:20:34 | 200 |  678.554828ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:20:37 | 200 |    1.127136ms |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:20:46 | 200 |    1.359603ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:20:49 | 200 |  617.600361ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:20:54 | 200 |     302.871µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:21:03 | 200 |    1.440999ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:21:07 | 200 |  640.024128ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:21:08 | 200 |     321.771µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:21:50 | 200 |    1.350844ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:21:52 | 200 |  591.019249ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:21:53 | 200 |     290.744µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:22:08 | 200 |  586.771912ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:22:09 | 200 |     322.299µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:22:34 | 200 |    1.473402ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:22:36 | 200 |  635.481941ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:22:37 | 200 |     335.661µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:24:34 | 200 |  783.239565ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:24:35 | 200 |     340.597µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:26:22 | 200 |    1.438893ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:26:24 | 200 |  557.598067ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:26:24 | 200 |     322.382µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:28:11 | 200 |     1.63896ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:28:12 | 200 |   582.56029ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:28:13 | 200 |     372.994µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:28:47 | 200 |    1.385747ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:28:49 | 200 |  790.575213ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:28:49 | 200 |     328.673µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:29:59 | 200 |     859.589µs |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:30:04 | 200 |  705.076053ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:30:06 | 200 |     336.296µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:30:12 | 200 |   583.36307ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:30:14 | 200 |     350.489µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN] 2022/03/23 - 20:30:43 | 200 |      1.3676ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:30:45 | 200 |  640.064061ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:30:46 | 200 |     302.118µs |             ::1 | GET      "/web/dump/CV.pdf"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- index.html
+	- template.html
+	- 
+
+[GIN-debug] GET    /                         --> main.index (4 handlers)
+[GIN-debug] POST   /create                   --> main.create (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/03/23 - 20:41:18 | 200 |    2.041291ms |             ::1 | GET      "/"
+[GIN] 2022/03/23 - 20:41:21 | 200 |  646.846198ms |             ::1 | POST     "/create"
+[GIN] 2022/03/23 - 20:41:21 | 200 |   18.510563ms |             ::1 | GET      "/web/dump/CV.pdf"

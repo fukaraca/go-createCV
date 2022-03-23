@@ -10,6 +10,7 @@ import (
 	"os"
 )
 
+//pdfGenerator creates the CV.pdf from buffered data which is templated HTML with provided information
 func pdfGenerator(r *bytes.Buffer) error {
 
 	pdfg, err := wkhtmltopdf.NewPDFGenerator()
@@ -17,16 +18,16 @@ func pdfGenerator(r *bytes.Buffer) error {
 		log.Println("pdf couldn't be generated", err)
 		return err
 	}
-	//todo
-	fmt.Println(r.String())
+	//prepare a new page from a buffered stream of bytes
 	page := wkhtmltopdf.NewPageReader(r)
 	page.EnableLocalFileAccess.Set(true)
 	page.Zoom.Set(1.5)
+	//append the page to PdfGenerator
 	pdfg.AddPage(page)
 
 	pdfg.SetStderr(os.Stdout)
 	pdfg.Dpi.Set(300)
-
+	pdfg.Grayscale.Set(true)
 	pdfg.MarginLeft.Set(0)
 	pdfg.MarginRight.Set(0)
 	pdfg.MarginTop.Set(0)
@@ -34,7 +35,6 @@ func pdfGenerator(r *bytes.Buffer) error {
 	pdfg.PageSize.Set(wkhtmltopdf.PageSizeA4)
 	pdfg.Orientation.Set(wkhtmltopdf.OrientationPortrait)
 
-	// Create PDF document in internal buffer
 	err = pdfg.Create()
 	if err != nil {
 		log.Println("pdf couldn't be created:", err)
@@ -50,6 +50,7 @@ func pdfGenerator(r *bytes.Buffer) error {
 	return nil
 }
 
+//templater simply creates HTML version of PDF to be generated and returns the data as buffered bytes
 func (info *Info) templater() *bytes.Buffer {
 	t := template.New("template.html")
 
@@ -81,6 +82,7 @@ func (info *Info) templater() *bytes.Buffer {
 	return &body
 }
 
+//AddPath function returns working directory in order to make wkhtmltopdf able-to-find/access to template-static-files
 func AddPath() template.URL {
 	dir, err := os.Getwd()
 	if err != nil {
