@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="min-height: 100%">
+<html lang="en" style="min-height: 1510px"><!--for n0n-docker devices min-height:100% -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="{{.addpath}}/web/css/bootstrap.min.css">
     <style>
         html,body{
-/*            height:297mm;
-            width:210mm;*/
-
             font-size:medium ;
         }
         h1,h2,h3,h4,h5,h6{
@@ -23,11 +20,11 @@
 
     </style>
 </head>
-<body style="background-color: #eff0f2 !important;min-height: 100%">
+<body style="background-color: #eff0f2 !important;min-height: 1510px"><!--for n0n-docker devices min-height:100% -->
 <div class="container-fluid align-items-center" >
     <img id="img-id" src="{{.addpath}}/web/img/canvas.png" style="margin-left: -15px;min-width: 110%">
 
-    <div class="row">
+    <div class="row" >
         <div class="col-4 offset-4 align-items-center">
             <img style="z-index: 3;margin-top: -120px;margin-left: 69px" src="{{.photograph}}"  width="212" height="212">
             <h2 style="text-align: center;font-size: xx-large">{{.fullname}}</h2>
@@ -35,9 +32,11 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-5 offset-1" style="margin-top: 100px">
+
+        <div class="col-5 offset-1" style="margin-top: 100px;float: left">
             <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>PROFILE</u></h3>
             <p style="margin-left: 17px">{{.profile}}</p>
+
 
 
             <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>SKILLS</u></h3>
@@ -64,7 +63,7 @@
             <p><b>Website:  </b>{{.contact.Website}}</p>
         </div>
 
-        <div class="col-5 offset-1" style="margin-top: 100px">
+        <div class="col-5 offset-1" style="margin-top: 100px;float: left">
 
             <h3 style="margin-bottom: 10px;margin-top: 10px;letter-spacing: 2px"><u>CAREER</u></h3>
             {{range .career }}
@@ -84,14 +83,9 @@
         </div>
     </div>
 
-
-
-
 </div>
 
-
-
-<script src="{{.addpath}}/web/js/bootstrap.js">
+<script src="{{.addpath}}/web/js/bootstrap.js" >
 
 </script>
 </body>

@@ -18,10 +18,12 @@ func pdfGenerator(r *bytes.Buffer) (error, *bytes.Buffer) {
 		log.Println("pdf couldn't be generated", err)
 		return err, nil
 	}
+
 	//prepare a new page from a buffered stream of bytes
 	page := wkhtmltopdf.NewPageReader(r)
 	page.EnableLocalFileAccess.Set(true)
-	page.Zoom.Set(1.5)
+	page.Zoom.Set(1.0)
+	page.ViewportSize.Set("1280x1024")
 	//append the page to PdfGenerator
 	pdfg.AddPage(page)
 	pdfg.Dpi.Set(300)

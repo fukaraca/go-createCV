@@ -26,7 +26,7 @@ func init() {
 	R = gin.Default()
 
 	//Serving HTML files
-	R.LoadHTMLGlob("*.html")
+	R.LoadHTMLGlob("index.html")
 
 	//Hint: Designated custom Filesystem. When HTML file asks, static.serve shows "root" to look at. indexes:  enables or
 	//disables the listing of contents in folder "root"

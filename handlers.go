@@ -67,6 +67,11 @@ func create(c *gin.Context) {
 	err, reader := pdfGenerator(buff)
 	if err != nil {
 		log.Println("pdf couldn't be generated")
+		c.HTML(400, "index.html", gin.H{
+			"inputCV": cvStr,
+			"created": "Oupss, something's gone wrong.! Pdf couldn't be generated due to some internal errors.:" + err.Error(),
+		})
+		return
 	}
 	c.Header("Content-Type", "application/pdf")
 	c.Header("Content-Disposition", "attachment; filename="+fileName)
