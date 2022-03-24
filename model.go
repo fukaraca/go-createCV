@@ -16,6 +16,7 @@ var SecureTag = os.Getenv("IS_SECURE")
 var secure bool
 var res = float32(212)
 
+//Info is structure of the resumee. Information must be provided in accordance with Info structure.
 type Info struct {
 	Fullname string `json:"fullname"`
 	Title    string `json:"title"`
@@ -52,6 +53,8 @@ type Info struct {
 	photoPath template.URL
 } //
 
+//example of a CV information in JSON format.
+//You can populate JSON array values like "skills" or "references" however it is not possible to add more properties with this structure.
 var example = `{
    "fullname":"Jane Doe",
    "title":"Go Developer",

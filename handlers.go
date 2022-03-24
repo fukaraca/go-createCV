@@ -11,6 +11,7 @@ import (
 	"path/filepath"
 )
 
+//index represents handler for landing page
 func index(c *gin.Context) {
 	symbolic := "/web/img/janedoe.png"
 	c.HTML(200, "index.html", gin.H{
@@ -20,6 +21,7 @@ func index(c *gin.Context) {
 	})
 }
 
+//create is handler for generating PDF with provided JSON formatted information
 func create(c *gin.Context) {
 	info := new(Info)
 	cvStr := c.PostForm("cv-input-json")
